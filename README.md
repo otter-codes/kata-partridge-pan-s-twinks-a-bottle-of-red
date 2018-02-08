@@ -38,4 +38,4 @@ If the stations all appear, return "Smell my cheese you mother!"
 If not, return "No, seriously, run. You will miss it."
 
 For example, given an Array containing "London", "Norwich" return "No, seriously, run. You will miss it."
-Given an Array containing "Rejection, Disappointment, Backstabbing Central, Shattered Dreams Parkway, Pie", return "No, seriously, run. You will miss it."
+Given an Array containing "Rejection, Disappointment, Backstabbing Central, Shattered Dreams Parkway, Pie", return "Smell my cheese you mother!"
