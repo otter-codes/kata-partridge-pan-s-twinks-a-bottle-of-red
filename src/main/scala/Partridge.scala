@@ -19,7 +19,21 @@ object Partridge extends App {
   }
 
   def london(args: Array[String]): String = {
-    ???
+
+    val londonSet = Set("Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway")
+
+    if (londonSet.subsetOf(args.toSet)){
+
+      "Smell my cheese you mother!"
+
+    }
+
+    else {
+
+      "No, seriously, run. You will miss it."
+
+    }
+
   }
-print(part(Array("word")))
+
 }
