@@ -4,9 +4,16 @@ object Partridge extends App {
   // See the README file for explanations of what each function should do.
 
   def part(args: Array[String]): String = {
-    ???
-  }
 
+    val quoteSet = Set("Partridge", "PearTree", "Chat", "Dan", "Toblerone", "Lynn", "AlphaPapa", "Nomad")
+    val q = args.filter((i: String) => quoteSet contains i).toList.length
+    //(s"${q}")
+    if(q== 0){
+      "Lynn, I've pierced my foot on a spike!!"
+    } else {
+      s"Mine's a pint${"!" * q}"
+    }
+  }
   def apple(x: Any): String = {
     ???
   }
@@ -28,10 +35,5 @@ object Partridge extends App {
     }
 
   }
-
-  val userArray = Array("Norwich", "Tooting", "Bank",
-    "Rejection", "Disappointment", "Backstabbing Central",
-    "Exeter", "Shattered Dreams Parkway", "Belgium","London")
-  println(london(userArray))
 
 }
