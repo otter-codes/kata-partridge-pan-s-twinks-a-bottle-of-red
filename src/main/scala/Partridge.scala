@@ -8,12 +8,13 @@ object Partridge extends App {
     val quoteSet = Set("Partridge", "PearTree", "Chat", "Dan", "Toblerone", "Lynn", "AlphaPapa", "Nomad")
     val q = args.filter((i: String) => quoteSet contains i).toList.length
     //(s"${q}")
-    if(q== 0){
+    if (q == 0) {
       "Lynn, I've pierced my foot on a spike!!"
     } else {
       s"Mine's a pint${"!" * q}"
     }
   }
+
   def apple(x: Any): String = {
     val b = x.toString.toInt
     if (b * b <= 1000) {
@@ -26,7 +27,7 @@ object Partridge extends App {
 
     val londonSet = Set("Rejection", "Disappointment", "Backstabbing Central", "Shattered Dreams Parkway")
 
-    if (londonSet.subsetOf(args.toSet)){
+    if (londonSet.subsetOf(args.toSet)) {
 
       "Smell my cheese you mother!"
 
@@ -39,3 +40,4 @@ object Partridge extends App {
     }
 
   }
+}
