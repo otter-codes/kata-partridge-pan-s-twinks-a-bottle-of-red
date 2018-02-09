@@ -10,7 +10,7 @@ object Partridge extends App {
   def apple(x: Any): String = {
     val b = x.toString.toInt
     if (b * b > 1000) {"It's hotter than the sun!!"}
-    else { "Help yourself to a honeycomb Yorkie for the glovebox"}
+    else {"Help yourself to a honeycomb Yorkie for the glovebox"}
   }
 
   def london(args: Array[String]): String = {
