@@ -10,6 +10,7 @@ class PartridgeSpec extends WordSpec with MustMatchers {
         Partridge.part(Array("")) mustEqual "Lynn, I've pierced my foot on a spike!!"
       }
 
+
       "return 'Lynn, I've pierced my foot on a spike!!' if no matches found" in {
         Partridge.part(Array("Sausage", "Pie")) mustEqual "Lynn, I've pierced my foot on a spike!!"
       }
@@ -31,6 +32,8 @@ class PartridgeSpec extends WordSpec with MustMatchers {
     }
 
     "apple is called" must {
+
+
 
       "return 'Help yourself to a honeycomb Yorkie for the glovebox' when given value of 4" in {
         Partridge.apple(4) mustEqual "Help yourself to a honeycomb Yorkie for the glovebox"
