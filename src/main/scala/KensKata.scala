@@ -1,5 +1,5 @@
 
-import KensKata.{firstNumber, num1, secondNumber}
+//import KensKata.{firstNumber, num1, secondNumber}
 
 import scala.io.StdIn
 import scala.util.{Failure, Success, Try}
@@ -17,7 +17,7 @@ object KensKata extends  App {
   def division( no1: Int, no2: Int ): Unit = {
     if ((no1 == 0) || (no2 == 0)) {
       println("You did not enter a valid number!!!")
-      playAgain
+      playAgain()
 
     } else {
       val result = no1 / no2
